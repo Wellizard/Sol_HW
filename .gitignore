@@ -14,3 +14,9 @@ node_modules/
 # Системні файли
 .DS_Store
 Thumbs.db
+
+# Фронтенд (React) артефакти та залежності
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local

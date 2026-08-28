@@ -72,4 +72,9 @@ contract VotingSystem {
 
         return candidates[winnerIndex].name;
     }
+
+    // Функція для отримання всього списку кандидатів
+    function getAllCandidates() public view returns (Candidate[] memory) {
+        return candidates;
+    }
 }
