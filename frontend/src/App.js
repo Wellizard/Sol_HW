@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ethers } from 'ethers';
 import VotingArtifact from './contracts/VotingSystem.json';
 
-const CONTRACT_ADDRESS = "0x0AF20819c7AbD6901EBd2E7B47333B7D62CFFF81";
+const CONTRACT_ADDRESS = "0xEdD8385782ED77213640263321F24e6cD6903a9c";
 const CONTRACT_ABI = VotingArtifact.abi;
 
 function App() {
